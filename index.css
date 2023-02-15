@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(/images/star\ falling.png);
+}
+
+.ht{
+    text-align: center;
+    margin: 30px;
+    color: rgb(136, 233, 40);
+}
+.sec-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+.sec-b  .img{
+    width: 400px;
+}
+h2{
+    color: darkorange;
+    text-align: center;
+}
+.sec-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+.sec-c .img1{
+    width: 200px;
+    border-radius: 20px;
+}
+.button1{
+    text-align: center;
+    background-color: rgb(0, 255, 225);
+    padding: 14px 20px ;
+    color: rgb(0, 0, 0);
+    font-size: 16px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-weight: bold;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.animate{
+    text-align: center;
+    align-items: center;
+}
+.animate .box{
+    display: block;
+    background-color:aqua;
+    font-weight: bold;
+    width: 450px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    align-items: center;
+}
+.animate .box1{
+    display: block;
+    text-align: center;
+    background-color:aqua;
+    font-weight: bold;
+    width: 450px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    align-items: center;
+}
+.animate .box2{
+    display: block;
+    text-align: center;
+    background-color:aqua;
+    font-weight: bold;
+    width: 450px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    align-items: center;
+}
+.wpimg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+}
+.name2{
+    color: aliceblue;
+    text-align: center;
+    border: double;
+    background-image: url(/images/falling-stars-stars.gif);
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
